@@ -8,4 +8,5 @@ I repackaged the .img that comes loaded as Raspbian lite and made the following 
 - changed hostname to raspbian-rpi
 - settings: SSH, en_US (locale, timezone, keyboard, etc.), 1920x1080
 - installed additional packages:
+
 		sudo apt-get install zsh nmap bridge-utils neofetch lshw raspberrypi-kernel-headers bc git libncurses5-dev parted libparted-dev alsa-tools alsa-utils libasound2-dev bsdtar lrzip autotools-dev dh-make xutils-dev

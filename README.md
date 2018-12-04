@@ -18,3 +18,4 @@ After flashing the image to a larger capacity SD card, be sure to use raspi-conf
 		sudo apt-get install --no-install-recommends xserver-xorg -y
 		sudo apt-get install --no-install-recommends lightdm -y
 		sudo apt-get install gvfs i3 -y
+		sudo apt-get install libpthread-stubs0-dev libxcb-composite0-dev libxcb-damage0-dev libxcb-dpms0-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-ewmh-dev libxcb-glx0-dev libxcb-image0-dev libxcb-present-dev libxcb-record0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-res0-dev libxcb-screensaver0-dev libxcb-shape0-dev libxcb-shm0-dev libxcb-sync-dev libxcb-xf86dri0-dev libxcb-xfixes0-dev libxcb-xtest0-dev libxcb-xv0-dev libxcb-xvmc0-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev -y

@@ -13,4 +13,4 @@ I repackaged the .img that comes loaded as Raspbian lite and made the following 
 
 After flashing the image to a larger capacity SD card, be sure to use raspi-config to expand the filesystem and restart before continuing.
 
-##These instructions are missing important additions and revisions that I hope to make on a later date.##
+*These instructions are missing important additions and revisions that I hope to make on a later date.*

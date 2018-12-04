@@ -11,4 +11,4 @@ I repackaged the .img that comes loaded as Raspbian lite and made the following 
 
 		zsh nmap bridge-utils neofetch lshw raspberrypi-kernel-headers bc git ranger libncurses5-dev libparted-dev alsa-tools libasound2-dev bsdtar lrzip autotools-dev dh-make xutils-dev
 
-After flashing the image to a larger capacity SD card, be sure to use raspi-config to expand the filesystem before continuing.
+After flashing the image to a larger capacity SD card, be sure to use raspi-config to expand the filesystem and restart before continuing.

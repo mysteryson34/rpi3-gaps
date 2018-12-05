@@ -26,7 +26,7 @@ If ~/.config/i3/ does not exist, use mkdir to create both folders.
 
 		cp /etc/i3/config ~/.i3/config
 
-Edit the config file to include these lines:
+Edit ~/.config/i3/config to include these lines:
 
 		for_window [class="^.*"] border pixel 0
 

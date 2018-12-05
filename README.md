@@ -22,7 +22,7 @@ After flashing the image to a larger capacity SD card, be sure to use raspi-conf
 		cd /tmp && git clone https://github.com/Airblader/xcb-util-xrm && cd xcb-util-xrm && git submodule update --init && ./autogen.sh --prefix=/usr && make && sudo make install
 		cd /tmp && git clone https://www.github.com/Airblader/i3 i3-gaps && cd i3-gaps && autoreconf --force --install && rm -rf build/ && mkdir -p build && cd build/ && ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers && make && sudo make install
 
-If ~/.config/i3/ does not exist, use mkdir to create both folders.
+If ~/.config/i3/ does not exist, use mkdir to create both folders. Then...
 
 		cp /etc/i3/config ~/.i3/config
 

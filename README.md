@@ -43,3 +43,13 @@ At this point, i3-gaps is installed. Use raspi-config while logged in as 'agent'
 		sudo apt-get install nitrogen feh compton compton-conf -y
 		sudo apt-get install --no-install-recommends thunar tumbler thunar-media-tags-plugin thunar-volman thunar-archive-plugin tumbler-plugins-extra -y
 		sudo apt-get install chromium-browser vlc qpdfview xarchiver gparted gnome-screenshot gpicview leafpad galculator -y
+
+Add the following lines to your ~/.config/i3/config file.
+
+		# startup preferences
+		exec --no-startup-id xfce4-panel &
+		exec --no-startup-id nitrogen --restore
+		exec --no-startup-id compton &
+		exec --no-startup-id volumeicon &
+		exec --no-startup-id blueman-applet &
+		exec --no-startup-id nm-applet &

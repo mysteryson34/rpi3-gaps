@@ -53,3 +53,9 @@ Add the following lines to your ~/.config/i3/config file.
 		exec --no-startup-id volumeicon &
 		exec --no-startup-id blueman-applet &
 		exec --no-startup-id nm-applet &
+
+And place hashtags in front of the lines at the bottom of the config file, like so...
+
+		# bar {
+		#         status_command i3status
+		# }

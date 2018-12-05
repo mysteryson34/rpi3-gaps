@@ -26,4 +26,11 @@ If ~/.config/i3/ does not exist, use mkdir to create both folders.
 
 		cp /etc/i3/config ~/.i3/config
 
+Edit the config file to include these lines:
+
+		for_window [class="^.*"] border pixel 0
+
+		gaps inner 20
+		gaps outer 20
+
 At this point, i3-gaps is installed. Everything from here on is in regards to my own personal method of customizing the user interface.

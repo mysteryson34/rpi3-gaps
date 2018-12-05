@@ -34,3 +34,5 @@ Edit ~/.config/i3/config to include these lines:
 		gaps outer 20
 
 At this point, i3-gaps is installed. Use raspi-config while logged in as 'agent' to set the boot options to *Console autologin* and restart. Everything from here on is in regards to my own personal method of customizing the user interface.
+
+		sudo apt-get install --no-install-recommends lxappearance xfce4-terminal fonts-noto-mono fonts-roboto xfce4-notifyd libnotify-bin -y

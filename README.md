@@ -59,3 +59,7 @@ And place hashtags in front of the lines at the bottom of the config file, like 
 		# bar {
 		#         status_command i3status
 		# }
+
+Finally,
+
+		sudo apt-get install network-manager-gnome -y && sudo apt-get purge dhcpcd5 openresolv -y && sudo apt autoremove -y

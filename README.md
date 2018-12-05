@@ -42,3 +42,4 @@ At this point, i3-gaps is installed. Use raspi-config while logged in as 'agent'
 		sudo apt-get install blueman numix-icon-theme arc-theme volumeicon-alsa -y
 		sudo apt-get install nitrogen feh compton compton-conf -y
 		sudo apt-get install --no-install-recommends thunar tumbler thunar-media-tags-plugin thunar-volman thunar-archive-plugin tumbler-plugins-extra -y
+		sudo apt-get install chromium-browser vlc qpdfview xarchiver gparted gnome-screenshot gpicview leafpad galculator -y

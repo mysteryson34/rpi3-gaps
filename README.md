@@ -39,6 +39,6 @@ At this point, i3-gaps is installed. Use raspi-config while logged in as 'agent'
 		sudo apt-get purge dunst rxvt-unicode -y
 		sudo apt-get install --no-install-recommends xfce4-panel -y
 		sudo apt-get purge i3status -y
-		sudo apt-get install blueman volumeicon-alsa -y
+		sudo apt-get install blueman numix-icon-theme arc-theme volumeicon-alsa -y
 		sudo apt-get install nitrogen feh compton compton-conf -y
 		sudo apt-get install --no-install-recommends thunar tumbler thunar-media-tags-plugin thunar-volman thunar-archive-plugin tumbler-plugins-extra -y
